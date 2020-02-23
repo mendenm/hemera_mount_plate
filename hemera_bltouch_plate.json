@@ -1,0 +1,41 @@
+{
+    "parameterSets": {
+        "design default values": {
+            "bearing_axial_separation": "30",
+            "bearing_centerline_height": "13",
+            "bearing_clearance": "0.2",
+            "bearing_length": "24",
+            "bearing_overhang": "5",
+            "bearing_retainer_wire_dia": "1",
+            "bearing_sleeve_thickness": "2",
+            "belt_offset_from_bottom_rail": "17.9",
+            "global_rotate_x": "90",
+            "hemera_bottom_screw_to_nozzle": "24.2",
+            "hemera_bottom_screw_z": "-14",
+            "lower_bearing_z": "0",
+            "main_plate_thickness": "5",
+            "nominal_bearing_dia": "15",
+            "rod_dia": "8",
+            "x_rod_spacing": "46"
+        },
+        "nozzle high": {
+            "bearing_axial_separation": "30",
+            "bearing_centerline_height": "13",
+            "bearing_clearance": "0.2",
+            "bearing_length": "24",
+            "bearing_overhang": "3",
+            "bearing_retainer_wire_dia": "1",
+            "bearing_sleeve_thickness": "2",
+            "belt_offset_from_bottom_rail": "17.9",
+            "global_rotate_x": "90",
+            "hemera_bottom_screw_to_nozzle": "24.2",
+            "hemera_bottom_screw_z": "-7",
+            "lower_bearing_z": "0",
+            "main_plate_thickness": "5",
+            "nominal_bearing_dia": "15",
+            "rod_dia": "8",
+            "x_rod_spacing": "46"
+        }
+    },
+    "fileFormatVersion": "1"
+}
