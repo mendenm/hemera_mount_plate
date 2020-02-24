@@ -140,7 +140,7 @@ module bltouch_mount_plate(nozzle_z)
           translate([2,0,0]) 
             chamferedBox([31,main_plate_thickness+8,5], 
                 depth=2, xy=true, yz=false, zx=false);
-          for(dx=[-9,9]) translate([dx,0,0])
+          for(dx=[-9,9]) translate([dx,1,0])
               cylinder(d=3.5,h=20,$fn=10, center=true);
           translate([0,4,0]) rotate([0,90,0])
               cylinder(d=3,h=50,$fn=10, center=true);
@@ -325,7 +325,7 @@ rotate([90,0,-90]) import("HEMERA-MODEL-1-(3).stl", convexity=20);
             cylinder(d=rod_dia, h=100, center=true);
 }
 
-%if(1) rotate(global_rotate) translate([-8,2,0]) bltouch2(hemera_nozzle_z);
+%if(1) rotate(global_rotate) translate([-8,3,0]) bltouch2(hemera_nozzle_z);
 
 rotate(global_rotate)  translate([-8,0,0])
     bltouch_mount_plate(hemera_nozzle_z);
