@@ -13,7 +13,7 @@ The design of plate incorporates a number of critical features.
 1. The plate has an integrated mount for a  [BLTouch bed sensor](https://www.antclabs.com), tightly fit between the Hemera and the guide rods, putting it only 25 mm from the nozzle, with zero x offset.
 
 ## Build and use notes
-* You can get the Hemera STL from [Hemera STL](https://e3d-online.dozuki.com/c/Hemera_CAD) which will appear as a 'ghost' when OpenSCAD visualizes the mount. 
+* You can get the Hemera STL from <https://e3d-online.dozuki.com/c/Hemera_CAD> which will appear as a 'ghost' when OpenSCAD visualizes the mount. 
 * The tiny holes in the bearing blocks are for brass wire to retain the bearings.  This is a lot easier to use than *#$&^%@ snap rings.
 * The "Nozzle High" customizer setting is the one I prefer.  It mounts the Hemera fairly high and well in between the guide rods.  The other setting has it squarely straddling the lower bearing block.
 * The square tunnel under the left-hand (looking from the front) bearing block is so that the wiring harness from a BLTouch can pass neatly under.  It has a pair of holes on each side of the tunnel for cable ties to strain-relieve the wiring.
@@ -26,6 +26,7 @@ The design of plate incorporates a number of critical features.
 * As of Feb. 21, 2020, I have been printing using this mount on my printer.   It took about 3 hours from opening the Hemera box until I got my first print.  
 * 2020-02-23 Moved screw holes on BLTouch mount out 1 mm to eliminate a collision between the power connector on the BLTouch and the Hemera body.  With them in their previous position, the BLTouch was slightly angled because of this collision. It works fine, nonetheless.
 * 2020-02-24 Working on actually documenting the project so it is useful on GitHub
+* There are some pictures on Facebook at <https://www.facebook.com/groups/1068531466501015/permalink/2880642818623195/>.  You (unfortunately) have to be a member of the group to see these, so you may have to register.
 
 ## License
  [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
