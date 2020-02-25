@@ -142,7 +142,7 @@ module bltouch_mount_plate(nozzle_z)
                 depth=2, xy=true, yz=false, zx=false);
           for(dx=[-9,9]) translate([dx,1,0])
               cylinder(d=3.5,h=20,$fn=10, center=true);
-          translate([0,4,0]) rotate([0,90,0])
+          if(0) translate([0,4,0]) rotate([0,90,0])
               cylinder(d=3,h=50,$fn=10, center=true);
           translate([0,-(main_plate_thickness+8)/2,0]) chamferedBox([10,4,6],
                 depth=1, xy=true, yz=false, zx=false);

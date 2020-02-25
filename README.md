@@ -17,6 +17,8 @@ The design of plate incorporates a number of critical features.
 * The "Nozzle High" customizer setting is the one I prefer.  It mounts the Hemera fairly high and well in between the guide rods.  The other setting has it squarely straddling the lower bearing block.
 * The square tunnel under the left-hand (looking from the front) bearing block is so that the wiring harness from a BLTouch can pass neatly under.  It has a pair of holes on each side of the tunnel for cable ties to strain-relieve the wiring.
 * The screw hole pattern on the right-hand bearing block, which matches the pattern a normal, detached bearing block would have, is for affixing extra items to the frot of the plate.  I use the upper row to attach my cable chain. Note that in the "Nozzle high" position, the lower row of holes is nearly useless, since it is partly covered by the drive motor on the Hemera.
+* The odd 'bump' in the bore of the two upper bearing blocks is to keep the seam from the final closure of the bridge from impacting the quality of the bore. 
+* The flats on the top and bottom of the bottom bearing block bore is what permits the self-alignment.  These flats allow the bottom bearing some freedom of movement in the direction between the two guide rods, while keeping the bering tightly confined in the perpendicular direction.  
 
 ## Status Updates
 * As of Feb. 21, 2020, I have been printing using this mount on my printer.   It took about 3 hours from opening the Hemera box until I got my first print.  
