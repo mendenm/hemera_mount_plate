@@ -228,7 +228,8 @@ module bearing_block_xsect(oval=0) {
         if(oval==0) {
             circle(d=bearing_dia, $fn=100);
             // relieve bad bridge at top of bearing for better fit
-            if(0) translate([0, bearing_dia/2-1]) square([5,3], center=true);
+            if(1) translate([0, bearing_dia/2-2.5]) 
+                 circle(d=8, $fn=6);
             else translate([0, bearing_dia/2-3]) circle(d=8, $fn=20);
         } else { // oval
             intersection() {
