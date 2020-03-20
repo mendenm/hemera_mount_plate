@@ -10,6 +10,9 @@ Photograph of the back side of the mount, installed with BLTouch.
 ![Front view of model](hemera_bltouch_plate_with_hemera_model.png)
 Model of the plate in OpenScad showing Hemera and BLTuch ghosted in.  From front.
 
+![Annotated model view](hemera_plate_annnotated.png)
+Annotated image showing some of the features
+
 ## Features
 
 The design of plate incorporates a number of critical features. 
